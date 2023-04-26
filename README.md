@@ -30,6 +30,7 @@
 
 
 ### :hover 에 라인 넣기 방법1 ::after 사용
+```
 .gnb li a {
     padding: 30px 0;
     position: relative;
@@ -161,3 +162,4 @@
     color: #fff;
     text-align: center;
 }
+```
