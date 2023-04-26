@@ -1,6 +1,7 @@
 #  tour 웹사이트
 
 ### header 고정, vh 사용
+```
 .wrap {
     background-color: red;
 }
@@ -14,9 +15,10 @@
     background-color: yellow;
     height: calc(100vh - 90px);
 }
-
+```
 
 ### header 요소 배치 (flex, gap 말고)
+```
 .header {
     height: 80px;
     display: flex;
@@ -27,6 +29,7 @@
 .logo {
     margin-right: auto;
 }
+```
 
 
 ### :hover 에 라인 넣기 방법1 ::after 사용
@@ -64,9 +67,10 @@
     width: 100%;
     background-color: #3ec9cb;
 }
+```
 
 ### hover 에 라인 넣기 방법2 border 사용
-
+```
 .gnb li a:hover {
     color: #3ec9cb;
     border-bottom: 3px solid #3ec9cb;
@@ -97,11 +101,11 @@
     color: #fff;
     text-align: center;
 }
-
+```
 
 
 ### 아이콘 배치 (position 사용)
-
+```
 .social {
     position: absolute;
     top: 50%;
@@ -123,19 +127,20 @@
     left: 0;
     width: 100%;
 }
-
+```
 
 ### 아이콘 컬러 번경 (외부 코드 참고)
+```
 .hero img {
     width: 30px;
     filter: brightness(0) invert(1);
 }
-
+```
 
 ### 백그라운드 이미지에 그라디언트 적용
-
 ##### bg 마크업 추가 (text_box보다 위에)
 ##### css 그라디언트 코드 (css gradient generator)
+```
 .hero {
     height: calc(100vh - 80px);
     background-image: url("../img/hero.jpg");
